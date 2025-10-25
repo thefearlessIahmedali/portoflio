@@ -73,7 +73,7 @@ const Home = () => {
           </section>
 
           <motion.div {...getTransitions(1.1)}>
-            <FooterLink goto="/resume" hidden></FooterLink>
+            
           </motion.div>
         </PageWrapper>
       </PageSection>
