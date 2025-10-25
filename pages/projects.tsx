@@ -48,7 +48,16 @@ const Projects = () => {
             <h2 className="intro__text">Projects</h2>
             <MansoryLayout>
               {projectsData.slice(0, 5).map((item, index) => (
-                <MansoryItem key={index} item={item} />
+                <MansoryItem
+                  key={index}
+                  item={{
+                    ...item,
+                    imageUrl:
+                      typeof item.imageUrl === 'object' && 'src' in item.imageUrl
+                        ? item.imageUrl.src
+                        : item.imageUrl,
+                  }}
+                />
               ))}
             </MansoryLayout>
           </section>

@@ -67,13 +67,22 @@ const Home = () => {
             </motion.h2>
             <MansoryLayout>
               {projectsData.slice(0, 5).map((item, index) => (
-                <MansoryItem key={index} item={item} />
+                <MansoryItem
+                  key={index}
+                  item={{
+                    ...item,
+                    imageUrl:
+                      typeof item.imageUrl === 'string'
+                        ? item.imageUrl
+                        : item.imageUrl?.src || '',
+                  }}
+                />
               ))}
             </MansoryLayout>
           </section>
 
           <motion.div {...getTransitions(1.1)}>
-            
+            <FooterLink goto="/resume" hidden>View Resume</FooterLink>
           </motion.div>
         </PageWrapper>
       </PageSection>

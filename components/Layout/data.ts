@@ -62,7 +62,7 @@ export const actions = (theme: () => void) => [
             label: project.title,
             href: project.link,
             description: project.description,
-            icon: project.imageUrl,
+            icon: typeof project.imageUrl === 'string' ? project.imageUrl : project.imageUrl.src,
           })
         ),
       }),
