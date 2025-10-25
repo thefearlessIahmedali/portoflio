@@ -6,7 +6,6 @@ import Link from 'next/link';
 import styled from 'styled-components';
 
 /* -------------------------- Image Dependecy -------------------------- */
-
 import {
   IconRight,
   Twitter,
@@ -41,25 +40,20 @@ const FooterLink: React.FC<IFooterLink &
           </p>
         </Link>
       </FooterStyle>
+
       <SocialMedia>
+        {/* 🟢 Keep Facebook */}
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://twitter.com/code_wonders"
-          aria-label="Go To Adenekan Wonderful Twitter Page"
-          title="Twitter Page"
-        >
-          <Twitter />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.facebook.com/AdenekanWonderful"
+          href="https://web.facebook.com/ahmed.ali.606073/"
           aria-label="Go To Adenekan Wonderful Facebook Page"
           title="Facebook Page"
         >
           <Facebook />
         </a>
+
+        {/* 🟢 Keep LinkedIn */}
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -69,6 +63,9 @@ const FooterLink: React.FC<IFooterLink &
         >
           <Linkedin />
         </a>
+
+        {/* 🔴 Hidden GitHub */}
+        {/*
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -78,6 +75,10 @@ const FooterLink: React.FC<IFooterLink &
         >
           <Github />
         </a>
+        */}
+
+        {/* 🔴 Hidden Dribbble */}
+        {/*
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -87,10 +88,26 @@ const FooterLink: React.FC<IFooterLink &
         >
           <Dribble />
         </a>
+        */}
+
+        {/* 🔴 Hidden Twitter */}
+        {/*
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://instagram.com/codewonders"
+          href="https://twitter.com/code_wonders"
+          aria-label="Go To Adenekan Wonderful Twitter Page"
+          title="Twitter Page"
+        >
+          <Twitter />
+        </a>
+        */}
+
+        {/* 🟢 Keep Instagram */}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/itjz2/"
           aria-label="Go To Adenekan Wonderful Instagram Page"
           title="Instagram Page"
         >

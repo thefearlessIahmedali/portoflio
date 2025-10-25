@@ -66,6 +66,9 @@ const Navbar = () => {
                     Home
                   </Link>
                 </li>
+
+                {/* 🔴 Hidden About */}
+                {/*
                 <li className="nav-item hover__bottom">
                   <Link
                     href="/about"
@@ -79,6 +82,10 @@ const Navbar = () => {
                     About
                   </Link>
                 </li>
+                */}
+
+                {/* 🔴 Hidden Projects */}
+                {/*
                 <li className="nav-item hover__bottom">
                   <Link
                     href="/projects"
@@ -92,7 +99,9 @@ const Navbar = () => {
                     Projects
                   </Link>
                 </li>
-                <li className="nav-item hover__bottom">
+                */}
+
+                {/* <li className="nav-item hover__bottom">
                   <Link
                     href="/contact"
                     activeClassName="is-active"
@@ -104,7 +113,8 @@ const Navbar = () => {
                   >
                     Contact
                   </Link>
-                </li>
+                </li> */}
+
                 <li className="nav-item pl-md-3">
                   <Link
                     href="#!"

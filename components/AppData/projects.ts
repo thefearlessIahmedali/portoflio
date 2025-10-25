@@ -1,57 +1,61 @@
+import image1 from '../../static/Screenshot 2025-10-25 152443.png';
+import image2 from '../../static/bullying-6952768_1280.jpg';
+import image3 from '../../static/product-presentation-credit-card-close-up-front-side-card-scaled.jpg';
+import image4 from '../../static/istockphoto-2151633407-612x612.jpg';
+import image5 from '../../static/premium_photo-1673953509975-576678fa6710.avif';
+
 const PROJECTS_DATA = [
   {
-    title: 'Piggment',
-    description: 'The Gradients and colors for the next smart creator',
+    title: 'Free Scirbe',
+    description: 'converting audio to text and transcribing made easy.',
     about:
       'Piggment is a curated collection of amazingly colored gradients for designers, developers, and smart creators over the world. now you can generate, explore, save, easy CSS cross-browser gradient codes all in one place.',
-    link: 'https://piggment.co',
-    imageUrl: 'https://i.ibb.co/tCZFDhL/Screen-Recording-2020-06-11-at-1.gif',
+    link: 'https://scribe-mp3.vercel.app/',
+    imageUrl: image1,
     github: 'https://github.com/adenekan41/piggment',
     type: ['project', 'open-source', 'tools'],
     technologies: ['React', 'Sass & CSS', 'Javascript', 'Context'],
   },
   {
-    title: 'Scoutbar',
-    about: 'Spotlight experience for your App',
+    title: 'cyber-bullying-detection',
+    about: 'Spots cyberbullying content in social media posts using Machine Learning.',
     description:
       'Navigation tool that significantly increases efficiency by reducing the number of clicks it takes you to navigate the web.',
-    link: 'https://scoutbar.co',
+    link: 'https://cyber-bullying-ml-project.onrender.com/',
     github: 'https://github.com/adenekan41/scoutbar',
-    imageUrl: 'https://i.ibb.co/txPxtCP/Frame-21-1.png',
+    imageUrl: image2,
     type: ['project', 'open-source', 'tools'],
     technologies: ['Typescript', 'Rollup', 'React', 'Nextjs'],
   },
   {
-    title: 'Shoprrr',
-    description: 'An E-commerce Application For Buying Cotton Products.',
+    title: 'spam-email-classifier',
+    description: 'A machine learning model that classifies emails as spam or not spam.',
     github: 'https://github.com/adenekan41/shoprrr',
     about:
       'Shoprrr is an e-commerce platform catered towards giving the best and fast experience for customers to buy cotton products, we call it a frictionless process from start to finish.',
-    link: 'https://shoprrr.netlify.com',
-    imageUrl: 'https://i.ibb.co/T0XwFsQ/Screen-Recording-2020-05-06-at-3.gif',
+    link: 'https://spam-or-ham-qk8g.onrender.com/',
+    imageUrl: image4,
     type: ['project'],
     technologies: ['React', 'Redux Saga', 'Javascript', 'Firebase'],
   },
     {
-    title: 'Audiomack Web',
+    title: 'credictard-validator',
     description:
-      'The music platform empowering artists.',
+      'A simple credit card validator built with Luhn Algorithm in python.',
     about:
       'Audiomack is an artist-first music platform that helps musicians reach and engage fans across the world. This project was aimed to redefine the desktop experience for our 14M monthly active users.',
-    link: 'https://audiomack.com',
-    imageUrl:
-      'https://i.ibb.co/GHssNFz/ezgif-4-03232fcf9b.gif',
+    link: 'https://cc-ml-pro.onrender.com/',
+    imageUrl: image3,
     type: ['project'],
     technologies: ['React', 'Nextjs', 'Typescript', 'Javascript'],
   },
   {
-    title: '54gene',
-    description: 'Discover Yourself Through Your Genes.',
+    title: 'brain-srtoke-prediction',
+    description: 'A machine learning model that predicts the likelihood of a person having a brain stroke based on various health factors.',
     about:
       'Africans house the most genetically diverse DNA in comparison to all other world populations combined. In gathering insights from the African genome, we could power medical breakthroughs and discoveries that will change the entire landscape of healthcare, globally. We fully recognize the tremendous potential that this presents. Presently, most genomic data used for development research is from Europe, the United Kingdom, and North America with African genomic data only accounting for less than 3%. This is where we come in. We exist to close this gap by increasing access to highly curated genomic data from African populations.',
-    link: 'https://54gene.com',
-    imageUrl:
-      'https://i.ibb.co/6gZckMz/Screenshot-2020-05-04-at-4-34-31-AM.png',
+    link: 'https://brainnn.onrender.com/',
+    imageUrl:image5,
     type: ['others', 'project'],
     technologies: ['Vuejs', 'Javascript', 'Vuex'],
   },
