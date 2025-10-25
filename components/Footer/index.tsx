@@ -57,7 +57,7 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://linkedin.com/in/codewonders"
+          href="https://www.linkedin.com/in/ahmed-ismail-ai04/"
           aria-label="Go To Adenekan Wonderful Linkedin Page"
           title="Linkedin Page"
         >
